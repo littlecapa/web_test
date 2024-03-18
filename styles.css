@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto Serif', serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: dodgerblue;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: dodgerblue;
+}
+
+h2, p {
+    font-size: 20px;
+}
+
+h2 + p {
+    margin-top: 10px;
+}
+
+h2:first-child {
+    margin-top: 0;
+}
+
+h2 + p:first-child {
+    margin-top: 0;
+}
+
+h2 {
+    font-style: italic;
+}
